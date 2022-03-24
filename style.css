@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Square{
+  width: 1200px;
+  height: 770px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+header{
+  text-align: center;
+}
+
+img{
+  height: 95px;
+  width: 210px;
+  padding-top: 90px;
+}
+
+header > h2{
+  color: #00FF00;
+  font-family: 'Quicksand';
+}
+
+nav{
+  width: 80%;
+  height: 40px;
+  background-color: #00FF00;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.buttons{
+  padding: 10px;
+}
+
+main{
+  margin-left: 10%;
+  color: white;
+}
+
+main > h3{
+  font-family: 'Quicksand';
+  line-height: 10px;
+}
+main > p{
+  font-family: 'Roboto';
+  line-height: 10px;
+}
+
+#charge1{
+  width: 30%;
+  height: 25px;
+  background-color: #FFBD2C;
+  border-radius: 5px;
+}
+
+#charge2{
+  width: 55%;
+  height: 25px;
+  background-color: #00FF00;
+  border-radius: 5px;
+}
+
+#charge3{
+  width: 15%;
+  height: 25px;
+  background-color: #D1343F;
+  border-radius: 5px;
+}
